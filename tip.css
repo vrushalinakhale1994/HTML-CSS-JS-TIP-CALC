@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+main {
+     height: 130vh; 
+    background-color: #003366;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+     flex-direction: column;
+     text-transform: capitalize;
+}
+
+div{
+    max-width: 600px; max-height: auto;
+    background-color: rgb(167, 176, 201) ;
+    padding: 10px;
+    box-shadow: 1px 1px 15px 20px rgb(224, 211, 224) ;
+}
+
+input[type="text"]
+{
+    font-size:24px;
+}
+h2 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 5px;
+    text-shadow: 1px 2px 1px white;
+}
+
+label {
+    display: block; 
+    margin-top: 20px;
+    font-size: 1.9rem;
+}
+
+input {
+    width: 350px;
+    padding: 2px 0;
+}
+
+button {
+    padding: auto;
+    font-size: 1.6rem;
+    background-color: rgb(184, 190, 212);
+    box-shadow: 1px 1px 10px 7px rgb(41, 26, 56);
+    margin-top: 10px;
+}
+.tipButton{
+    content: center;
+    text-align: center;
+
+}
